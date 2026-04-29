@@ -1,0 +1,33 @@
+.wym { margin: 36px 0; }
+.wym h2 { font-size: 22px; font-weight: 700; margin-bottom: 20px; }
+.wym-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 16px;
+}
+.wym-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.wym-item:hover { transform: translateY(-4px); }
+.wym-img-wrap {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #f0f0f0;
+  border: 2px solid transparent;
+  transition: border-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}
+.wym-item:hover .wym-img-wrap { border-color: var(--red); }
+.wym-item.active .wym-img-wrap { border-color: var(--red); box-shadow: 0 0 0 3px rgba(226,55,68,0.15); }
+.wym-item p { font-size: 12px; font-weight: 500; color: var(--text-secondary); text-align: center; }
+.wym-item img { width: 100%; height: 100%; object-fit: cover; }

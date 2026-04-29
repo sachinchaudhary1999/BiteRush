@@ -1,0 +1,39 @@
+.order-tracking { margin: 30px 0; }
+.order-tracking h2 { font-size: 20px; font-weight: 700; margin-bottom: 20px; }
+.tracking-card {
+  background: white;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 24px;
+  border-left: 4px solid var(--red);
+}
+.tracking-restaurant { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+.tracking-eta { font-size: 13px; color: var(--text-muted); margin-bottom: 20px; }
+.tracking-steps { display: flex; align-items: center; gap: 0; position: relative; }
+.tracking-step {
+  display: flex; flex-direction: column; align-items: center;
+  flex: 1; position: relative; z-index: 1;
+}
+.tracking-step-icon {
+  width: 42px; height: 42px; border-radius: 50%;
+  background: #f0f0f0; display: flex;
+  align-items: center; justify-content: center;
+  font-size: 18px; margin-bottom: 8px;
+  border: 2px solid #e0e0e0;
+  transition: all 0.3s;
+}
+.tracking-step.done .tracking-step-icon { background: var(--red); border-color: var(--red); }
+.tracking-step.active .tracking-step-icon {
+  background: white; border-color: var(--red);
+  box-shadow: 0 0 0 4px rgba(226,55,68,0.15);
+  animation: pulse 1.5s infinite;
+}
+.tracking-step-label { font-size: 11px; font-weight: 600; color: var(--text-muted); text-align: center; }
+.tracking-step.done .tracking-step-label,
+.tracking-step.active .tracking-step-label { color: var(--red); }
+.tracking-line {
+  flex: 1; height: 3px; background: #f0f0f0;
+  position: relative; top: -12px; z-index: 0;
+  border-radius: 2px;
+}
+.tracking-line.done { background: var(--red); }
