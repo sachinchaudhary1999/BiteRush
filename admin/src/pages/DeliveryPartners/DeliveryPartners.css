@@ -1,0 +1,13 @@
+/* ---- Delivery Partners ---- */
+.dp-stats { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+.dp-stat-chip {
+  background: white; border-radius: 20px; padding: 6px 16px;
+  font-size: 13px; color: var(--text-secondary);
+  box-shadow: var(--shadow-sm); border: 1px solid var(--border);
+}
+.partner-avatar {
+  width: 36px; height: 36px; border-radius: 50%;
+  background: var(--red); color: white;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 15px; flex-shrink: 0;
+}

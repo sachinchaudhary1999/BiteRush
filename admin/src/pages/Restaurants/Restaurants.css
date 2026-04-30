@@ -1,0 +1,21 @@
+/* ---- Restaurants Page ---- */
+.img-placeholder {
+  width: 44px; height: 44px; border-radius: 8px;
+  background: #f5f5f5; display: flex;
+  align-items: center; justify-content: center; font-size: 22px;
+}
+/* Toggle switch */
+.toggle-wrap { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.toggle {
+  width: 40px; height: 22px; border-radius: 11px;
+  position: relative; transition: background 0.2s;
+}
+.toggle.on { background: var(--success); }
+.toggle.off { background: #ccc; }
+.toggle-knob {
+  position: absolute; width: 16px; height: 16px; background: white;
+  border-radius: 50%; top: 3px; transition: left 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+.toggle.on .toggle-knob { left: 21px; }
+.toggle.off .toggle-knob { left: 3px; }

@@ -1,42 +1,19 @@
-.order-item{
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
-    align-items: start;
-    gap: 30px;
-    border: 1px solid tomato;
-    padding: 20px;
-    margin: 30px 0px;
-    font-size: 14px;
-    color: #505050;
+/* ---- Orders Page ---- */
+.order-summary-chips { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+.order-chip {
+  padding: 7px 16px; border-radius: 20px; font-size: 13px; font-weight: 600;
+  border: 1.5px solid var(--border); background: white;
+  color: var(--text-secondary); cursor: pointer; transition: all 0.15s;
 }
-.order-item-food,.order-item-name{
-    font-weight: 600;
+.order-chip:hover { border-color: var(--red); color: var(--red); }
+.order-chip.active { background: var(--red); color: white; border-color: var(--red); }
+
+/* Status dropdown inside the table */
+.status-select {
+  border: 1.5px solid var(--border); border-radius: 6px;
+  padding: 7px 10px; font-size: 13px; font-weight: 500;
+  outline: none; cursor: pointer; font-family: 'Outfit', sans-serif;
+  background: white; color: var(--text-secondary);
+  transition: border-color 0.2s;
 }
-.order-item-name{
-    margin-top: 30px;
-    margin-bottom: 5px;
-}
-.order-item-address{
-    margin-bottom: 10px;
-}
-.order-item select{
-    background-color: #ffe8e4;
-    border: 1px solid tomato;
-    width: max(10vw,120px);
-    padding: 10px;
-    outline:none;
-}
-@media(max-width:1000px){
-    .order-item{
-        font-size: 12px;
-        grid-template-columns: 0.5fr 2fr 1fr;
-        padding: 15px 8px;
-    }
-    .order-item select{
-        padding: 5px;
-        font-size: 12px;
-    }
-    .order-item img{
-        width: 40px;
-    }
-}
+.status-select:focus { border-color: var(--red); }
