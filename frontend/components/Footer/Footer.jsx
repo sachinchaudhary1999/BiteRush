@@ -1,11 +1,14 @@
 import React from 'react'
 import './Footer.css'
+import logo from '../../assets/biterush-logo.svg'
 
 const Footer = () => (
   <div className='footer' id='footer'>
     <div className='footer-top'>
       <div>
-        <div className='footer-brand-logo'>🍅 Tomato</div>
+        <div className='footer-brand'>
+          <img src={logo} alt='BiteRush logo' className='footer-brand-img' />
+        </div>
         <p className='footer-brand-desc'>Delivering happiness since 2025. Better food for more people — from 1000+ restaurants to your doorstep.</p>
         <div className='footer-social'>
           <div className='footer-social-icon'>📘</div>
@@ -33,7 +36,7 @@ const Footer = () => (
           <li>Partner With Us</li>
           <li>Apps For You</li>
           <li>Business Blog</li>
-          <li>Tomato for Enterprise</li>
+          <li>BiteRush for Enterprise</li>
         </ul>
         <h3 style={{marginTop: '20px'}}>Learn More</h3>
         <ul>
@@ -65,7 +68,7 @@ const Footer = () => (
 
     <div className='footer-bottom'>
       <div>
-        <div className='footer-bottom-left'>© 2025 Tomato Limited. All rights reserved.</div>
+        <div className='footer-bottom-left'>© 2025 BiteRush Limited. All rights reserved.</div>
         <div className='footer-country'>🇮🇳 India</div>
       </div>
       <div className='footer-bottom-right'>

@@ -32,7 +32,22 @@
 .app-download-btn .btn-icon { font-size: 24px; }
 .app-download-btn-text small { display: block; font-size: 10px; opacity: 0.7; letter-spacing: 0.5px; text-transform: uppercase; }
 .app-download-btn-text strong { font-size: 16px; font-weight: 700; }
-.app-download-right { font-size: 120px; opacity: 0.12; flex-shrink: 0; line-height: 1; user-select: none; }
+.app-download-logo {
+  margin-bottom: 24px;
+}
+.app-download-logo img { width: 140px; height: auto; display: block; }
+.app-download-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.app-download-main-logo {
+  width: 180px;
+  max-width: 100%;
+  opacity: 0.14;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.1));
+}
 .app-download-stats {
   display: flex; gap: 30px; margin-top: 20px; flex-wrap: wrap;
 }

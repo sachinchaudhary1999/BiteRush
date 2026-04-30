@@ -34,7 +34,7 @@ const LoginPopup = ({ setShowLogin }) => {
     <div className='login-popup' onClick={() => setShowLogin(false)}>
       <div className='login-popup-box' onClick={e => e.stopPropagation()}>
         <div className='login-popup-banner'>
-          <h2>{tab === 'login' ? 'Welcome back! 👋' : 'Join Tomato 🍅'}</h2>
+          <h2>{tab === 'login' ? 'Welcome back! 👋' : 'Join BiteRush'}</h2>
           <p>{tab === 'login' ? 'Sign in to continue ordering' : 'Create your free account today'}</p>
           <span className='login-popup-close' onClick={() => setShowLogin(false)}>✕</span>
         </div>

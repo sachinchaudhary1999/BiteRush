@@ -3,7 +3,7 @@ import './OffersCarousel.css'
 
 const offers = [
   { cls: 'offer-card-1', badge: 'Limited Time', title: '40% OFF up to ₹120', desc: 'On your first 2 orders', code: 'WELCOME40', emoji: '🎉' },
-  { cls: 'offer-card-2', badge: 'Tomato Pro', title: 'Free Delivery', desc: 'On all orders with Pro', code: 'GOPRO', emoji: '⚡' },
+  { cls: 'offer-card-2', badge: 'BiteRush Pro', title: 'Free Delivery', desc: 'On all orders with Pro', code: 'GOPRO', emoji: '⚡' },
   { cls: 'offer-card-3', badge: 'Weekend Special', title: '₹100 OFF', desc: 'On orders above ₹399', code: 'WEEKEND100', emoji: '🍕' },
   { cls: 'offer-card-4', badge: 'New Users', title: '60% OFF', desc: 'Use code on first order', code: 'NEW60', emoji: '🎊' },
   { cls: 'offer-card-5', badge: 'Happy Hours', title: 'Buy 1 Get 1', desc: 'On selected restaurants', code: 'BOGO', emoji: '🤝' },

@@ -51,8 +51,8 @@ const MyOrders = () => {
                   <div className='order-card-restaurant'>
                     <div style={{fontSize:32}}>🍽️</div>
                     <div>
-                      <div className='order-card-restaurant-name'>Tomato Kitchen</div>
-                      <div className='order-card-restaurant-sub'>Order #{order._id?.slice(-6)?.toUpperCase() || 'TOT001'}</div>
+                      <div className='order-card-restaurant-name'>BiteRush Kitchen</div>
+                      <div className='order-card-restaurant-sub'>Order #{order._id?.slice(-6)?.toUpperCase() || 'BRH001'}</div>
                     </div>
                   </div>
                   <span className={`order-status-badge ${statusClass[order.status] || 'status-processing'}`}>

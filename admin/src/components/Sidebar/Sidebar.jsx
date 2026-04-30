@@ -57,7 +57,7 @@ const Sidebar = ({ role = 'superadmin' }) => {
       {/* Bottom: version info */}
       {!collapsed && (
         <div className='sidebar-footer'>
-          <div className='sidebar-version'>🍅 Tomato Admin</div>
+          <div className='sidebar-version'>� BiteRush Admin</div>
           <div className='sidebar-version-num'>v2.0.0 — 2025</div>
         </div>
       )}

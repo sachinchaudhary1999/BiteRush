@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import './Navbar.css'
 import { Link, useNavigate } from 'react-router-dom'
 import { StoreContext } from '../../Context/StoreContext'
+import logo from '../../assets/biterush-logo.svg'
 
 const Navbar = ({ setShowLogin, setShowLocation }) => {
   const { getTotalCartAmount, token, setToken, cartItems } = useContext(StoreContext)
@@ -19,8 +20,8 @@ const Navbar = ({ setShowLogin, setShowLocation }) => {
       <div className='navbar-inner'>
         {/* Logo */}
         <Link to='/' className='navbar-logo'>
-          <span className='navbar-logo-icon'>🍅</span>
-          <span className='navbar-logo-text'>Tomato</span>
+          <img src={logo} alt='BiteRush logo' className='navbar-logo-image' />
+          <span className='navbar-logo-text'>BiteRush</span>
         </Link>
 
         {/* Location */}
@@ -50,7 +51,7 @@ const Navbar = ({ setShowLogin, setShowLocation }) => {
 
           <button className='navbar-right-btn' onClick={() => navigate('/pro')}>
             <span>⚡</span>
-            <span>Tomato Pro</span>
+            <span>BiteRush Pro</span>
           </button>
 
           <button className='navbar-right-btn navbar-cart-btn' onClick={() => navigate('/cart')}>
@@ -79,7 +80,7 @@ const Navbar = ({ setShowLogin, setShowLocation }) => {
                     <span className='icon'>❤️</span> Favourites
                   </div>
                   <div className='navbar-dropdown-item' onClick={() => navigate('/pro')}>
-                    <span className='icon'>⚡</span> Tomato Pro
+                    <span className='icon'>⚡</span> BiteRush Pro
                   </div>
                   <div className='navbar-dropdown-item'>
                     <span className='icon'>📍</span> Saved Addresses

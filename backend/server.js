@@ -1,5 +1,5 @@
 // ============================================================
-// TOMATO BACKEND — Main Server Entry Point
+// BITERUSH BACKEND — Main Server Entry Point
 // Express + MongoDB + Stripe
 // Port: 4000 (configurable via .env)
 // ============================================================
@@ -51,7 +51,7 @@ app.use("/api/analytics", analyticsRouter);     // Dashboard stats
 app.use("/api/users", userAdminRouter);         // Admin: manage users
 
 // ---- Health Check ----
-app.get("/", (req, res) => res.send("🍅 Tomato API is running!"));
+app.get("/", (req, res) => res.send("� BiteRush API is running!"));
 
 // ---- Start Server ----
 app.listen(port, () => console.log(`🚀 Server started on http://localhost:${port}`));

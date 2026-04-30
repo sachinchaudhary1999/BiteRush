@@ -1,11 +1,11 @@
- Tomato: A Food Delivery App
+ BiteRush: A Food Delivery App
 
-Tomato is a full-featured, responsive food delivery application built using the MERN stack (MongoDB, Express, React, Node.js) with Stripe payment integration. This project delivers a seamless experience for customers, administrators, and delivery personnel, combining a user-friendly frontend, a robust backend, and an intuitive admin panel into a single, comprehensive platform. 
+BiteRush is a full-featured, responsive food delivery application built using the MERN stack (MongoDB, Express, React, Node.js) with Stripe payment integration. This project delivers a seamless experience for customers, administrators, and delivery personnel, combining a user-friendly frontend, a robust backend, and an intuitive admin panel into a single, comprehensive platform. 
 
  Features
 
  Customer Interface (Frontend)
-- Responsive Design: Developed with React, Tomato offers a fully responsive interface that adapts to various devices, from desktops to mobile screens, ensuring an optimized user experience.
+- Responsive Design: Developed with React, BiteRush offers a fully responsive interface that adapts to various devices, from desktops to mobile screens, ensuring an optimized user experience.
 - User Authentication: Secure user login and registration using JSON Web Tokens (JWT) to manage sessions and protect user data.
 - Browse and Search: Users can browse restaurants, view menus, and search for food items by category, popularity, or dietary preference.
 - Order Management: Customers can place orders, select their preferred delivery address, and track the status of their orders in real-time.
@@ -45,7 +45,7 @@ Tomato is a full-featured, responsive food delivery application built using the 
 
  Project Structure
 ```bash
-Tomato/
+BiteRush/
 │
 ├── client/                  # Frontend code (React)
 │   ├── public/
@@ -76,6 +76,6 @@ Tomato/
 - Multi-Language Support: Make the app accessible to a broader audience by adding multiple languages.
 
  Contribution Guidelines
-Feel free to contribute to Tomato by forking this repository, creating a new branch, and submitting a pull request. Please make sure to follow standard coding practices and add meaningful comments to your code.
+Feel free to contribute to BiteRush by forking this repository, creating a new branch, and submitting a pull request. Please make sure to follow standard coding practices and add meaningful comments to your code.
 
-Enjoy exploring the code and features of Tomato, and feel free to reach out for any questions or suggestions!
+Enjoy exploring the code and features of BiteRush, and feel free to reach out for any questions or suggestions!

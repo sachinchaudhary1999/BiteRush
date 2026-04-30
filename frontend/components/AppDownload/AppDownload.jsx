@@ -1,10 +1,14 @@
 import React from 'react'
 import './AppDownload.css'
+import logo from '../../assets/biterush-logo.svg'
 
 const AppDownload = () => (
   <div className='app-download' id='app-download'>
     <div className='app-download-left'>
-      <h2>Get the Tomato App 🍅</h2>
+      <div className='app-download-logo'>
+        <img src={logo} alt='BiteRush logo' />
+      </div>
+      <h2>Get the BiteRush App</h2>
       <p>Order food, track deliveries in real-time, explore exclusive offers — all in your pocket. Available on iOS & Android.</p>
       <div className='app-download-buttons'>
         <button className='app-download-btn'>
@@ -28,7 +32,9 @@ const AppDownload = () => (
         <div className='app-stat'><div className='app-stat-num'>1000+</div><div className='app-stat-label'>Cities</div></div>
       </div>
     </div>
-    <div className='app-download-right'>🍅</div>
+    <div className='app-download-right'>
+      <img src={logo} alt='BiteRush logo' className='app-download-main-logo' />
+    </div>
   </div>
 )
 

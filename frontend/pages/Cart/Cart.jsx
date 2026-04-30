@@ -64,7 +64,7 @@ const Cart = () => {
             </div>
           ) : (
             <>
-              <div className='cart-restaurant-header'>🍽️ Tomato Kitchen</div>
+              <div className='cart-restaurant-header'>🍽️ BiteRush Kitchen</div>
               <div className='cart-items-list'>
                 {items.map((item, i) => (
                   <div key={i} className='cart-item'>

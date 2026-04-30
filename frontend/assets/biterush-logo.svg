@@ -1,0 +1,28 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F4ED8" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+    <linearGradient id="markGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="120" rx="20" fill="#fff" />
+  <rect x="12" y="12" width="116" height="96" rx="24" fill="url(#markGrad)" />
+
+  <path d="M48 28C50.2091 28 52 29.7909 52 32V54H64C66.2091 54 68 55.7909 68 58V74C68 76.2091 66.2091 78 64 78H52V90C52 92.2091 50.2091 94 48 94C45.7909 94 44 92.2091 44 90V78H32C29.7909 78 28 76.2091 28 74V58C28 55.7909 29.7909 54 32 54H44V32C44 29.7909 45.7909 28 48 28Z" fill="#fff" />
+  <path d="M88 22C100.15 22 110 31.85 110 44C110 56.15 100.15 66 88 66C75.85 66 66 56.15 66 44C66 31.85 75.85 22 88 22ZM88 28C80.27 28 74 34.27 74 42C74 49.73 80.27 56 88 56C95.73 56 102 49.73 102 42C102 34.27 95.73 28 88 28Z" fill="#fff" />
+  <path d="M64 32C64 28.6863 66.6863 26 70 26H90C93.3137 26 96 28.6863 96 32V36H64V32Z" fill="#fff" opacity="0.18" />
+
+  <g opacity="0.95">
+    <path d="M40 36C45.5228 36 50 31.5228 50 26C50 20.4772 45.5228 16 40 16C34.4772 16 30 20.4772 30 26C30 31.5228 34.4772 36 40 36Z" fill="#fff" />
+    <path d="M56 36C61.5228 36 66 31.5228 66 26C66 20.4772 61.5228 16 56 16C50.4772 16 46 20.4772 46 26C46 31.5228 50.4772 36 56 36Z" fill="#fff" opacity="0.6" />
+  </g>
+
+  <text x="144" y="74" fill="url(#brandGrad)" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="700">Bite</text>
+  <text x="230" y="74" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="700">Rush</text>
+  <path d="M236 36C242.627 36 248 41.373 248 48C248 54.627 242.627 60 236 60C229.373 60 224 54.627 224 48C224 41.373 229.373 36 236 36Z" fill="#F97316" opacity="0.5" />
+</svg>
